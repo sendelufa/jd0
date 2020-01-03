@@ -52,7 +52,8 @@
 | parent_id | INT               | комментарий, на который оставлен этот комментарий (может быть NULL, если комментарий оставлен просто к посту) |
 | post_id   | INT NOT NULL      | пост, к которому написан комментарий                                                                          |
 | user_id   | INT NOT NULL      | автор комментария                                                                                             |
-| time      | DATETIME NOT NULL | дата и время комментария  
+| time      | DATETIME NOT NULL | дата и время комментария                                                                                      |
+| text      | TEXT NOT NULL     | текст комментария                                                                                             |
 
 ## Таблица ```captcha_codes``` - коды капч
 |name          |properties                    |description                            |
